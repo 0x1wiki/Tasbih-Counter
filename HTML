@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tasbih Counter</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>تسبیح کاؤنٹر</h1>
+
+    <div class="counter-card" id="card">
+      <div class="count-display" id="count">0</div>
+      <div class="label" id="label">کل تسبیحات</div>
+
+      <div class="controls">
+        <button id="tapBtn" class="big-btn">تِک</button>
+        <div class="small-controls">
+          <button id="undoBtn"</button>
+          <button id="resetBtn"</button>
+          <button id="setBtn"</button>
+        </div>
+      </div>
+
+      <div class="meta">
+        <label>:
+          <input id="goalInput" type="number" min="1" value="33" />
+        </label>
+        <div id="progressWrap">
+          <div id="progressBar"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
